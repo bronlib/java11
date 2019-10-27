@@ -5,7 +5,9 @@ Java WebSockets
 [![Maven Central](https://img.shields.io/maven-central/v/org.java-websocket/Java-WebSocket.svg)](https://mvnrepository.com/artifact/org.java-websocket/Java-WebSocket)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.java-websocket/Java-WebSocket.svg)](https://oss.sonatype.org/content/repositories/snapshots/org/java-websocket/Java-WebSocket/)
 
-This repository contains a barebones WebSocket server and client implementation
+This repository is based on : https://github.com/manouti/java-http-client-api.
+
+It contains a barebones WebSocket server and client implementation
 written in 100% Java. The underlying classes are implemented `java.nio`, which allows for a
 non-blocking event-driven model (similar to the
 [WebSocket API](http://dev.w3.org/html5/websockets/) for web browsers).
@@ -33,9 +35,6 @@ To use maven add this dependency to your pom.xml:
 </dependency>
 ```
 
-#### Gradle
-To use Gradle add the maven central repository to your repositories list:
-```xml
 mavenCentral()
 ```
 Then you can just add the latest version to your build.
@@ -111,6 +110,8 @@ Minimum Required JDK
 
  * Java 1.6 and higher
  * Android 4.0 and higher
+ 
+ However, this project was upgraded to work with Java 11 
 
 Other JRE implementations may work as well, but haven't been tested.
 
