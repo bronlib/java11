@@ -6,15 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="websocketstudy" />
-        <module name="java11_demoapp" />
+        <module name="Java-WebSocket" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="DEPRECATION" value="false" />
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="websocketstudy" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="Java-WebSocket" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
